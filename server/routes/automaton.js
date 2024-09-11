@@ -1,4 +1,4 @@
-// server/routes/automaton.js
+// routes/automaton.js
 const express = require('express');
 const router = express.Router();
 const { constructDFA, constructNFA, generateRegex } = require('../utils/automatonLogic');

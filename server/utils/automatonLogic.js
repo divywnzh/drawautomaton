@@ -42,7 +42,7 @@ function constructDFA(language) {
   
   // Placeholder function for regex generation
   function generateRegex(automaton) {
-    // This is where you'd implement the algorithm to convert automaton to regex
+    // placeholder for logic
     console.log('Generating regex from automaton:', automaton);
     return '(a|b)*abb';  // Example regex
   }
