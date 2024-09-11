@@ -6,28 +6,32 @@ DFA and NFA construction from regular expressions. The query (regex) is sent to 
 
 1. **Clone the repository:**
 
-git clone <repository-url>
+```bash
+git clone https://github.com/divywnzh/drawautomaton.git
 cd drawautomaton
+```
 
 2. Install dependencies:
 
 For backend:
 
+```bash
 cd server
 npm install
-    
+```
 For frontend:
-
+```bash
 cd ../client
 npm install
-
+```
 3. Run the server:
 
 In the server directory (backend)
-
+```bash
 npm run dev
-
+```
 
 In the client directory (frontend)
-
+```bash
 npm run dev
+```
